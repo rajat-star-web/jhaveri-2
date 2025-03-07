@@ -1,0 +1,244 @@
+.rounded{
+    border-radius: 10px !important;
+}
+.owner-img{
+    border-radius: 50% 5% 50% 5% !important;
+}
+.owner-d2{
+    display: none;
+  }
+.owner-name{
+    margin: 0px;
+    padding-top: 20px;
+}
+.disclaimer{
+    padding-bottom: 30px;
+    font-size: 16px;
+}
+.realar{
+    padding-bottom: 40px !important;
+}
+.about{
+    padding-bottom: 50px !important;
+}
+.about .qodef-m-title{
+   font-size: 40px !important;
+}
+.about p{
+    font-size: 20px !important;
+ }
+ .about span{
+    font-size: 14px !important;
+ }
+.bg-video{
+    position: relative;
+}
+.request{
+    position: absolute;
+    bottom: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.request .qodef-button.qodef-layout--outlined {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    position: relative;
+    font-size: 16px;
+}
+
+.request .qodef-button.qodef-layout--outlined .qodef-border-holder {
+    border: 1px solid rgb(143 143 143 / 50%) !important;
+}
+
+.about-page-padding{
+    padding: 0px 50px 0px 10px !important;
+}
+
+.about-page-padding p{
+    text-align: justify !important;
+    line-height: 30px;
+}
+.about-page{
+    padding: 100px 0px 100px 0px !important;
+}
+.about-page .qodef-m-images{
+    overflow: hidden;
+    border-radius: 50px;
+}
+.about-page .about-img{
+    transition: transform 0.9s ease-in-out !important;
+    overflow: hidden;
+}
+.about-page .about-img:hover{
+    transform: scale(1.1) !important; 
+}
+
+/* .aword{
+    padding: 50px 0px 50px 0px !important;
+    background: url(../img/counter-background.jpg) !important;
+} */
+.apartment-category-condo .wp-post-image{
+border-radius: 10px !important;
+}
+.project-page-padding {
+    padding: 0px 50px 0px 40px !important;
+}
+.project-pages{
+    padding-bottom: 40px;
+}
+.projects-padding{
+    padding: 50px 0px !important;
+}
+.project-file-section{
+    padding: 25px 0px !important;
+    background-image: linear-gradient(#ffffff50, #ffffff50), url(../img/pattern.svg) !important;
+}
+.file-dwonload{
+    text-align: center;
+}
+.contact-us{
+    background-color: #fff !important;
+    padding: 50px 0px;
+}
+.contact-us-form{
+    padding: 80px 0px !important;
+}
+.contact-form{
+ padding-top: 20px;
+}
+.contact-us-map{
+    padding: 40px 0px 0px 0px !important;
+}
+.owner-section{
+    padding: 80px 0px !important;
+}
+
+.qodef-has-submenu {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.qodef-dropdown-icon {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+}
+
+.qodef-has-submenu:hover .qodef-dropdown-icon {
+    transform: rotate(180deg);
+}
+
+/* Dropdown Menu */
+.qodef-submenu {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background: #fff;
+    padding: 10px 0;
+    list-style: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    min-width: 180px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+}
+
+.qodef-has-submenu:hover .qodef-submenu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    padding: 10px 20px;
+}
+.qodef-has-submenu:hover .qodef-submenu li{
+   margin-bottom: 5px;
+   font-family: Raleway;
+   font-size: 11px;
+   line-height: 2.09em;
+   letter-spacing: 0.3em;
+   font-weight: 500;
+   text-transform: uppercase;
+}
+.footer-text .widget{
+    color: #fff;
+}
+.footer-text .textwidget p{
+    font-family: "Cormorant Garamond" !important;
+    font-size: 20px !important;
+    margin: 10px 0 !important;
+    line-height: 1.45em !important;
+    font-weight: 500 !important;
+}  
+
+.home-blog-section{
+    padding: 50px 0px 70px 0px !important;
+}
+.home-blog{
+    padding-bottom: 50px;
+}
+.home-blog .qodef-m-title{
+    color: #fff;
+}
+.blog-section{
+ padding: 60px 60px;
+}
+.blog-details-image{
+    padding-top: 30px;
+}
+.blog-details-content{
+    list-style: none;
+}
+
+.blog-details-content span{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.blog-details-content .list-content{
+    display: flex;
+    align-items: baseline;
+}
+.blog-details-content .list-content h4{
+    margin-bottom: 0px;
+}
+.blog-details-content .list-content .text{
+    padding-left: 5px;
+}
+.contact-page-content{
+    padding-top: 24px;
+}
+.contact-page-content h5{
+    color: black;
+    font-weight: 600;
+ }
+.contact-page-content a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: #615e5e;
+}
+.gallery{
+    padding: 100px 0px;
+}
+@media (max-width: 768px) {
+    .qodef-drop-down-second {
+        position: static; /* Ensure the dropdown stays within the flow */
+    }
+
+    .qodef-drop-down-second .sub-menu {
+        background: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .menu-item-has-children.active .sub-menu {
+        display: block;
+    }
+
+    .qodef-menu-arrow {
+        cursor: pointer;
+    }
+}
