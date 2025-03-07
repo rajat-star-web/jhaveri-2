@@ -13639,10 +13639,10 @@ input[type="text"]::-ms-clear {
     width: 100%;
   }
   .elementor-395 .elementor-element.elementor-element-6c53bab {
-    padding: 50px 0px 0px 0px !important;
+    padding: 50px 0px 50px 0px !important;
   }
   .elementor-395 .elementor-element.elementor-element-844f5fc > .elementor-element-populated {
-    padding: 60px 0px 0px 0px !important;
+    padding: 60px 0px 60px 0px !important;
 }
 }
 @media only screen and (max-width: 680px) and (min-width: 481px) {
@@ -17570,6 +17570,9 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
     margin-bottom: var(--grid-row-gap);
     word-break: break-word;
   }
+  .blog-section{
+    padding: 60px 0px !important;
+   }
   .elementor-grid-mobile-1 .elementor-grid {
     grid-template-columns: repeat(1, 1fr);
   }
